@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 58px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+}
+p {
+  font-size: 20px;
+}
+h5 {
+  font-size: 14px;
+}
+a {
+  font-size: 14px;
+}
+section {
+  margin: 50px 150px;
+}
+header {
+  margin: 0 150px;
+}
+.main {
+  max-height: 100vh;
+}
+
+/*navbar*/
+.navbar {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 75px;
+}
+
+.nav__url {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.nav__url a {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+  font-weight: 600;
+}
+.nav__url a:hover {
+  color: darkgray;
+}
+
+.nav__btn select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: grey;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.nav__btn button {
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  background-color: #00b284;
+}
+
+/* main section*/
+main {
+  height: calc(100vh - 100px);
+  background-image: url("https://www.bykemania.com/bootstrapimages/img1.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__section {
+  display: flex;
+  align-items: center;
+}
+
+.section__content {
+  max-width: 600px;
+  padding-right: 50px;
+}
+
+.section__content > h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.section__content > p {
+  color: white;
+  display: block;
+}
+
+.section__card {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.section__card p {
+  font-size: 1rem;
+}
+.card-bike-types {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.bike-type {
+  cursor: pointer;
+}
+
+.bike-type i {
+  font-size: 2rem;
+}
+
+.ride__form {
+  margin-top: 16px;
+}
+
+.ride__form input {
+  padding: 12px;
+  border: 1px solid grey;
+  width: 200px;
+  height: 36px;
+  margin: 0;
+}
+.ride__form input:nth-child(odd) {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.ride__form input:nth-child(even) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.ride__form div {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ride__form p {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#search {
+  width: 100%;
+  height: 36px;
+  background-color: #ff7a00;
+  border: 1px solid #ff7a00;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+/*about*/
+.display-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.content {
+  max-width: 400px;
+}
+
+/* milestones */
+.milestones {
+  background-color: #f7f7f3;
+  padding: 50px 100px;
+}
+
+.milestones__section {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.milestones__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.milestones__list > li {
+  list-style: none;
+}
+
+.milestone > p:nth-child(odd) {
+  font-weight: bold;
+  color: orange;
+  margin-bottom: 8px;
+}
+.milestone > p:nth-child(even) {
+  font-weight: 400;
+}
+
+/*favourites*/
+
+.favourites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.bike__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bike__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 3px 0px;
+  margin-bottom: 16px;
+  padding: 8px 8px 32px 8px;
+}
+
+.bike__card > p {
+  color: #ff7a00;
+  font-weight: 600;
+}
+.bike__card > button {
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #00b284;
+  color: white;
+  font-weight: 600;
+}
+
+/* services , download */
+.services__section,
+.download__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.services__feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.download__feature {
+  display: flex;
+  gap: 8px;
+}
+
+.services__content,
+.download__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+}
+.services__icons > p,
+.download__icons > p {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.services__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__icons i {
+  font-size: 40px;
+  color: orange;
+}
+.services__icons,
+.download__icons {
+  gap: 12px;
+}
+
+.download__icons {
+  cursor: pointer;
+}
+
+/* features card */
+.features__card {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  border-radius: 24px;
+  align-items: center;
+  background-color: #000;
+}
+.features__content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 8px;
+}
+.features__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.feature__list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 1rem;
+}
+.features__btn {
+  padding: 8px 16px;
+  background-color: #ff7a00;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+/* question section */
+.questions__section > h1 {
+  margin-bottom: 16px;
+}
+
+.accordion-item {
+  border: none !important;
+  border-bottom: 0.5px solid grey !important;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  background-color: #f3f3f3;
+  justify-content: space-around;
+  padding: 40px 80px;
+}
+
+.footer__lists ul {
+  display: flex;
+  gap: 20px;
+}
+.footer__lists li {
+  list-style: none;
+  line-height: 2.3;
+  cursor: pointer;
+  color: grey;
+}
+.footer__lists li:hover {
+  list-style: none;
+  line-height: 2.3;
+  color: orange;
+}
+.footer__lists li:nth-child(1) {
+  color: brown;
+  font-weight: 600;
+  cursor: text;
+}
+
+@media (max-width: 768px) {
+  section {
+    margin: 0;
+  }
+}

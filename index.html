@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <title>BikeMania</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <header>
+    <nav class="navbar">
+      <img class="logo" src="./assets/logo.png" alt="logo">
+      <div class="nav__url">
+        <a href="#">For business</a>
+        <a href="#">GO Electric</a>
+        <a href="#">Partner with us</a>
+        <a href="#">VOLARIS</a>
+        <a href="#">Tarrif Offers</a>
+        <a href="#">Riding Gears</a>
+      </div>
+      <div class="nav__btn">
+        <select name="location" id="nav__drop">
+          <option value="Bangalore">Bangalore</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Delhi">Delhi</option>
+          <option value="Hyderabad">Hyderabad</option>
+        </select>
+        <button>Login</button>
+      </div>
+    </nav>
+  </header>
+  <!--section main-->
+  <main>
+    <section class="main__section">
+      <div class="section__content">
+        <h1 style="line-height: 1.2; padding-bottom: 16px;">Rent top bikes for your next ride</h1>
+        <p style="line-height: 1.5; padding-bottom: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex cumque, fugit, totam, nulla exercitationem explicabo quaerat inventore eaque itaque sequi voluptatem dolor harum repellat provident?</p>
+      </div>
+      <div class="section__card">
+        <div class="card-bike-types">
+          <div class="bike-type">
+            <i class="fa-solid fa-bicycle"></i>
+            <p>Electric Bikes</p>
+          </div>
+          <div class="bike-type">
+            <i class="fa-solid fa-bicycle"></i>
+            <p>Electric Bikes</p>
+          </div>
+          <div class="bike-type">
+            <i class="fa-solid fa-bicycle"></i>
+            <p>Electric Bikes</p>
+          </div>
+        </div>
+        <hr>
+        <form class="ride__form" action="">
+          <p>Location</p>
+          <div>
+            <input type="text" placeholder="Select City">
+            <input type="text" placeholder="Select Location">
+          </div>
+          <p>Pick Up</p>
+          <div>
+            <input type="date" placeholder="Select Date">
+            <input type="text" placeholder="Select Time">
+          </div>
+          <p>Drop</p>
+          <div>
+            <input type="date" placeholder="Select Date">
+            <input type="text" placeholder="Select Time">
+          </div>
+          <button id="search" type="submit">Search Your Ride</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!--section about-->
+  <section class="display-about">
+    <img src="https://www.bykemania.com/bootstrapimages/slider1.png" alt="">
+    <div class="content">
+      <p style="color: brown; font-weight: 600;">Why people love Bikemania?</p>
+      <h1 style="font-size: 32px; line-height: 1.5;">Well Maintained</h1>
+      <p style="font-size: 24px; line-height: 1.5;">Our bikes maintained so well you will feel they are brand new!</p>
+    </div>
+  </section>
+  <!--section milestones-->
+  <div class="milestones">
+    <div class="milestones__section">
+      <p style="font-size: 40px; margin-bottom: 50px; padding-left: 40px;">Our key milestones</p>
+      <ul class="milestones__list">
+        <li class="milestone">
+          <p>250000+</p>
+          <p>Kms and running</p>
+        </li>
+        <li class="milestone">
+          <p>5750+</p>
+          <p>Number of Customers served</p>
+        </li>
+        <li class="milestone">
+          <p>1200+</p>
+          <p>Fleet Size</p>
+        </li>
+        <li class="milestone">
+          <p>2500+</p>
+          <p>App downloads</p>
+        </li>
+        <li class="milestone">
+          <p>4.5+</p>
+          <p>Google ratings</p>
+        </li>
+      </ul>
+      </d>
+    </div>
+  </div>
+  <!--section favourites-->
+  <section>
+    <div class="favourites">
+      <h1 style="font-size: 36px; font-weight: 500;">Customer favourites</h1>
+      <h3 style="font-size: 20px; font-weight: 300;">Bikes that are trending this month 🔥</h3>
+      <div class="bike__cards">
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+        <div class="bike__card">
+          <img src="https://www.bykemania.com/bike_img/model_5.jpg" alt="bike">
+          <h2>Honda Aviator</h2>
+          <p>₹ 400 per day</p>
+          <button>Check Availability</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section services-->
+  <section class="services__section">
+    <div class="services__content">
+      <p style="color: brown; font-weight: 600;">The bikemania advantage</p>
+      <h1 style="font-size: 36px; font-weight: 500;">Top bikes, everytime!</h1>
+      <h4>Our bikes maintained so well you will feel they are brand new!</h4>
+      <div class="services__feature">
+        <div class="services__icons">
+          <i class="fa-solid fa-pump-soap"></i>
+          <p>Sanitised Bikes</p>
+        </div>
+        <div class="services__icons">
+          <i class="fa-solid fa-motorcycle"></i>
+          <p>Latest Model</p>
+        </div>
+        <div class="services__icons">
+          <i class="fa-solid fa-hand-holding-heart"></i>
+          <p>Always Insured</p>
+        </div>
+      </div>
+    </div>
+    <img src="https://www.bykemania.com/bootstrapimages/cleaning.png" alt="cleaning">
+  </section>
+  <!--section download-->
+  <section class="download__section">
+    <img src="https://www.bykemania.com/bootstrapimages/app.png" alt="Download App">
+    <div class="download__content">
+      <p style="color: brown; font-weight: 600;">Download Bikemania</p>
+      <h1 style="font-size: 36px; font-weight: 500;">Easy access on the app</h1>
+      <h4>Install our mobile app to get exciting offers and amazing features</h4>
+      <div class="download__feature">
+        <div class="download__icons">
+          <img src="https://www.bykemania.com/bootstrapimages/google.png?v=1.0" alt="play store">
+        </div>
+        <div class="download__icons">
+          <img src="https://www.bykemania.com/bootstrapimages/apple.png?v=1.0" alt="app store">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section features-->
+  <section class="features__card">
+    <div class="features__content">
+      <h1 style="margin-bottom: 24px; font-size: 2.2rem; font-weight: 500;">Rent Electric Vehicles</h1>
+      <div class="features__list">
+        <div class="feature__list">
+          <i class="fa-regular fa-map"></i>
+          <h7> Range 100+ Kms</h7>
+        </div>
+        <div class="feature__list">
+          <i class="fa-solid fa-battery-full"></i>
+          <h7> Swappable battery</h7>
+        </div>
+        <div class="feature__list">
+          <i class="fa-solid fa-table-cells"></i>
+          <h7> Payload 150kgs</h>
+        </div>
+        <div class="feature__list">
+          <i class="fa-solid fa-house"></i>
+          <h7> Charge anywhere</h7>
+        </div>
+        <div class="feature__list">
+          <i class="fa-regular fa-clock"></i>
+          <h7> Charging time 80% in 2 hrs</h7>
+        </div>
+      </div>
+      <button class="features__btn">See all EVs available to rent</button>
+    </div>
+    <div class="features__img">
+      <img src="https://www.bykemania.com/bootstrapimages/slider.png?v=1.0" alt="guys riding a bike">
+    </div>
+  </section>
+  <!--section questions-->
+  <section class="questions__section">
+    <h1>Frequently asked questions</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Is fuel included in the tariff?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, beatae blanditiis. Ipsam iure, esse necessitatibus totam facere laudantium libero odio?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Can I cancel my booking?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga commodi accusantium placeat, molestias natus provident possimus perferendis totam dolor illum corrupti ipsa voluptatibus sunt. Aliquam ad voluptates consectetur eos ipsa!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is the minimum or maximum rental period?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto assumenda labore accusantium qui, unde molestias minus, pariatur neque quas impedit, iure odio esse.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion" id="accordionExample1">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What documents are needed to book a vehicle?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample1">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam id nobis vel possimus molestias minima vitae accusantium? Suscipit unde iste quam consequuntur id.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Will I get complimentary helmet?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample1">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio corporis eos sed eveniet id! Unde ab, enim facilis minus, praesentium facere aspernatur veniam placeat debitis neque amet explicabo!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Is it possible to extend the ride beyond the booking horizon?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample1">
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, doloribus vero? Necessitatibus dolor molestias rerum praesentium illum aliquid sit!
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+  <!--section footer-->
+  <footer>
+    <ul class="footer__lists">
+      <li>Quick Links</li>
+      <li>FAQ</li>
+      <li>Tarrif</li>
+      <li>Rent Accessories</li>
+      <li>Buy bikes</li>
+    </ul>
+    <ul class="footer__lists">
+      <li>Policies</li>
+      <li>Terms & Conditions</li>
+      <li>Privacy</li>
+    </ul>
+    <ul class="footer__lists">
+      <li>Company</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+    </ul>
+    <ul class="footer__lists">
+      <li>deals</li>
+      <li>Offers</li>
+      <li>Dealbox</li>
+      <li>Electric scooter deals</li>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
